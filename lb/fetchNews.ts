@@ -15,7 +15,7 @@ const fetchNews = async (
             myQuery(
                 access_key: $access_key
                 categories: $categories
-                countries: "us"
+                countries: "gb"
                 sort: "published_desc"
                 keywords: $keywords
             ) {
@@ -75,6 +75,6 @@ const fetchNews = async (
 
 export default fetchNews;
 
-// stepzen import curl "http://api.mediastack.com/v1/news?access_key=23981374ad7e3a987d0665ffdefe47c8=&sources=business,sports"
+// stepzen import curl "http://api.mediastack.com/v1/news?access_key=23981374ad7e3a987d0665ffdefe47c8&sources=business,sports"
 
 // stepzen import curl "http://api.mediastack.com/v1/news?access_key=84d04a54aa760dfcb837312455f9e476&countries=us%2Cgb&limit=100&offset=0&sort=published_desc"
